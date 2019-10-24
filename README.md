@@ -28,13 +28,9 @@ choco install mpv
 
 ### install
 
-现在并没有上传到 [`npmjs.com`](https://npmjs.com), 所以你需要使用本地安装的方式
-
 ```console
 
-git clone https://github.com/Programming-With-Love/dd1024.git
-cd dd1024
-sudo cnpm i -g .
+cnpm i -g dd1024
 
 ```
 
