@@ -87,3 +87,5 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+logo/
