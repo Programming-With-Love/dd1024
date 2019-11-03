@@ -1,12 +1,23 @@
 {
   "name": "dd1024",
-  "version": "1.0.0",
-  "description": "",
-  "bin": "cli.js",
+  "version": "1.0.1",
+  "description": "没时间解释了, 快上车~",
+  "bin": {
+    "dd1024": "cli.js",
+    "fff": "fff.js"
+  },
   "main": "index.js",
   "scripts": {
     "dev:api": "nodemon lib/api/av"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Programming-With-Love/dd1024"
+  },
+  "bugs": {
+    "url": "https://github.com/Programming-With-Love/dd1024/issues"
+  },
+  "homepage": "https://github.com/Programming-With-Love/dd1024#readme",
   "keywords": [
     "cli",
     "jav",
@@ -18,7 +29,10 @@
     "cherio": "^1.0.0-rc.2",
     "colors": "^1.4.0",
     "console.table": "^0.10.0",
+    "dotav": "^0.0.1",
+    "mpv-play": "^0.0.1",
     "node-fetch": "^2.6.0",
+    "ora": "^4.0.2",
     "querystring": "^0.2.0"
   }
 }

@@ -1,12 +1,10 @@
-![](https://i.loli.net/2019/10/24/chSmDZ845grWkdo.png)
+![](https://i.loli.net/2019/11/03/lANn14iQeYxtXkm.png)
 
 > debug dream in 1024
 
-`dd1024` 是一个查看[车牌号](https://zh.moegirl.org/zh-hans/车牌号)的小工具, 现在使用很简单, 安装之后, 第二个参数传递车牌号就可以上车了
+![catbox](https://files.catbox.moe/su2vll.gif)
 
-![https://i.loli.net/2019/10/24/CKQqhdDjEyHfp8V.gif](https://i.loli.net/2019/10/24/CKQqhdDjEyHfp8V.gif)
-
-### depend
+### Depend
 
 `dd1024` 现在是使用`nodejs`来编写的[CLI](https://zh.wikipedia.org/zh-hans/命令行界面)
 
@@ -26,17 +24,13 @@ choco install mpv
 
 ```
 
-### install
+### Install
 
 ```console
 
 cnpm i -g dd1024
 
 ```
-
-### devloper
-
-Yo. I Still don't know how to write🧐
 
 ### FAQ
 
@@ -48,7 +42,7 @@ Yo. I Still don't know how to write🧐
 
 > 问: 怎么用
 
-安装之后, `dd1024 车牌号` 这样, 就可以了
+安装之后, `dd1024 [车牌号]` 这样, 就可以了
 
 > 问: 为什么我没有播放
 
@@ -60,14 +54,12 @@ mpv --version
 
 ```
 
-还有就是, 现在默认的站点是国内的, 比较慢, 用这个站点是为了照顾过不了代理的小伙伴
+**还有就是, 现在默认的站点是国内的, 比较慢, 用这个站点是为了照顾过不了代理的小伙伴**
 
 
 ### TODO
 
-- 播放车牌号
-- 查看车牌号信息
-- 下载车牌号
-- 随机看靓车🤙
-
-请去 `issues` 里去提需求😄
+- [x] 播放车牌号
+- [ ] 查看车牌号信息
+- [ ] 下载车牌号
+- [ ] 随机看靓车🤙
