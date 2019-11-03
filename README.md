@@ -13,7 +13,7 @@
 ```console
 
 # mac
-brew install mpv
+brew cask install mpv
 
 # debian
 sudo apt install mpv
